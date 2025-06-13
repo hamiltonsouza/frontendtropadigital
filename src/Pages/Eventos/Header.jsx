@@ -1,6 +1,5 @@
 import React from 'react'
 import Text from '../../Components/Common/Text'
-import Input from '../../Components/Common/Input';
 
 const Header = ({userName}) => {
     const boldUserName = userName;
