@@ -1,13 +1,13 @@
 import React from 'react'
 import './Login.scss'
-import Image from './Image'
+import LoginImage from './LoginImage'
 import LoginContent from './LoginContent'
 
 const Login = () => {
   return (
     <main className='container'>
       <LoginContent />
-      <Image />
+      <LoginImage />
     </main>
   )
 }

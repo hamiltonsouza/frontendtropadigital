@@ -1,9 +1,9 @@
 import React from 'react'
 import ListItem from './ListItem'
 
-const Menu = () => {
+const NavMenu = () => {
   return (
-    <nav className="menu">
+    <nav className="navMenu">
         <ul>
             <ListItem listItemClass="navItem" listItemName="Dashboard"/>
             <ListItem listItemClass="navItem" listItemName="Eventos"/>
@@ -14,4 +14,4 @@ const Menu = () => {
   )
 }
 
-export default Menu
+export default NavMenu

@@ -1,12 +1,16 @@
 import React from 'react'
 import Logo from '../../Components/Common/Logo'
-import Menu from './Menu'
+import NavMenu from './NavMenu'
+import UserProfile from './UserProfile'
+import UserMenu from './UserMenu'
 
 const Eventos = () => {
   return (
     <aside id="sidebar">
       <Logo />
-      <Menu />    
+      <NavMenu />
+      <UserProfile />
+      <UserMenu />
     </aside>
   )
 }
