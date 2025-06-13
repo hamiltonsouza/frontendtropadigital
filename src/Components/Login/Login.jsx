@@ -3,6 +3,7 @@ import './Login.scss'
 import Logo from '../Common/Logo'
 import Title from '../Common/Title'
 import Subtitle from '../Common/Subtitle'
+import Form from './Form'
 
 const Login = () => {
   return (
@@ -11,6 +12,7 @@ const Login = () => {
             <Logo />
             <Title typeClass="title" message="Bem-vindo de volta" />
             <Subtitle typeClass="subtitle" message="Entre com sua conta para acessar o painel." />
+            <Form />
         </header>
         <section className="input">
             
