@@ -3,6 +3,7 @@ import Logo from '../../Components/Common/Logo'
 import NavMenu from './NavMenu'
 import UserProfile from './UserProfile'
 import UserMenu from './UserMenu'
+import Header from './Header'
 
 const Eventos = () => {
   return (
@@ -11,6 +12,7 @@ const Eventos = () => {
       <NavMenu />
       <UserProfile />
       <UserMenu />
+      <Header userName={'Kaique Steck'}/>
     </aside>
   )
 }
