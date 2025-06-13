@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
 
-const Text = ({typeClass, message}) => {
+const Text = ({ as, variant, message }) => {
+  const TEXT_TYPE = {
+    h1: <h1 className={variant}>{message}</h1>,
+    h2: <h2 className={variant}>{message}</h2>,
+    p: <p className={variant}>{message}</p>,
+  };
+
   return (
-    <span className={typeClass}>{message}</span>
+    <>
+      {TEXT_TYPE[as]}
+    </>
   )
-}
+};
 
-export default Text
+export default Text;

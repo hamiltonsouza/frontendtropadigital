@@ -6,8 +6,8 @@ const UserProfile = () => {
   return (
     <>
         <ProfileImage />
-        <Text typeClass={'userName'} message={'Kaique Steck'}/>
-        <Text typeClass={'userRole'} message={'Administrador'} />
+        <Text as={'p'} variant={'userName'} message={'Kaique Steck'}/>
+        <Text as={'p'} variant={'userRole'} message={'Administrador'} />
     </>
   )
 }
