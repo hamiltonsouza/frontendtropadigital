@@ -1,5 +1,7 @@
 import React from 'react';
 import Table from './Table';
+import Input from '../../Components/Common/Input';
+import Button from '../../Components/Common/Button';
 
 const EventosTable = () => {
     const theadData = ['Name', 'TeamSize', 'Status', 'Date'];
@@ -16,6 +18,8 @@ const EventosTable = () => {
     ];
     return (
         <div>
+            <Input inputType={'search'} inputID={'eventosSearch'} inputPlaceholder={'Buscar Eventos'} autoComplete={'on'}/>
+            <Button buttonLabel={'Inserir novo'}/>
             <Table theadData={theadData} tbodyData={tbodyData} />
         </div>
     );
