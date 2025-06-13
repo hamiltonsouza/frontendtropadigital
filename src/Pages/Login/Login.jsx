@@ -1,8 +1,8 @@
 import React from 'react'
 import './Login.scss'
-import Logo from '../Common/Logo'
-import Title from '../Common/Title'
-import Subtitle from '../Common/Subtitle'
+import Logo from '../../Components/Common/Logo'
+import Title from '../../Components/Common/Title'
+import Subtitle from '../../Components/Common/Subtitle'
 import Form from './Form'
 import Image from './Image'
 
