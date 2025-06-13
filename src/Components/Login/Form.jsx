@@ -1,7 +1,7 @@
 import React from 'react'
 import Input from '../Common/Input'
 import Button from '../Common/Button'
-import InputLabel from './InputLabel'
+import InputLabel from '../Common/InputLabel'
 
 const Form = () => {
   return (
