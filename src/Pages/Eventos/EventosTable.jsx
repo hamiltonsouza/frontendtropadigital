@@ -1,6 +1,7 @@
 import React from 'react';
 import Table from './Table';
 import TableControls from './TableControls';
+import TablePageControl from './TablePageControl';
 
 const EventosTable = () => {
     const theadData = ['Name', 'TeamSize', 'Status', 'Date'];
@@ -19,6 +20,7 @@ const EventosTable = () => {
         <div>
             <TableControls />
             <Table theadData={theadData} tbodyData={tbodyData} />
+            <TablePageControl />
         </div>
     );
 };
