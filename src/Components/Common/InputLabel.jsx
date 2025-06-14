@@ -1,9 +1,9 @@
 import React from 'react'
 
-const InputLabel = ({inputID, labelMessage}) => {
+const InputLabel = ({inputID, labelMessage, labelClass}) => {
   return (
     <>
-        <label for={inputID}>{labelMessage}</label><br/>
+        <label for={inputID} className={labelClass}>{labelMessage}</label><br/>
     </>
   )
 }

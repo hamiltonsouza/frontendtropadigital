@@ -1,5 +1,5 @@
 import React from 'react'
-import './Login.scss'
+import '../../App.scss'
 import LoginImage from './LoginImage'
 import LoginContent from './LoginContent'
 
