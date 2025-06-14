@@ -6,8 +6,10 @@ const Header = () => {
   return (
     <header className="header">
         <Logo />
-        <Text as='h1' variant="title" message="Bem-vindo de volta" />
-        <Text as='h2' variant="subtitle" message="Entre com sua conta para acessar o painel." />
+        <section className='headerText'>
+          <Text as='h1' variant="title" message="Bem-vindo de volta" />
+          <Text as='h2' variant="subtitle" message="Entre com sua conta para acessar o painel." />
+        </section>
     </header>
   )
 }
